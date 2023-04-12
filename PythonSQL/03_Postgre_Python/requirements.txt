@@ -1,0 +1,4 @@
+pandas==2.0.0
+sqlalchemy==2.0.9
+pyscopg2==2.9.6
+dotenv

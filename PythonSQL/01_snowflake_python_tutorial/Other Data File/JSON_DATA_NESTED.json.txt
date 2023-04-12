@@ -1,0 +1,4 @@
+{"name":"A",
+"Age":30,
+"address": {"pincode":411027,"city":"Pune"}
+}

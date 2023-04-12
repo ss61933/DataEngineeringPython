@@ -1,0 +1,10 @@
+2023-04-11 13:16:07,597 --Start of the logging--
+2023-04-11 13:16:07,597 Step 1 Testing Connecting to the PostgreSQL database...
+2023-04-11 13:16:07,670 Step 2 PostgreSQL database version:
+2023-04-11 13:16:07,678 ('PostgreSQL 15.2, compiled by Visual C++ build 1914, 64-bit',)
+2023-04-11 13:16:07,678 Database connection closed.
+2023-04-11 13:16:07,678 Step 3 Connecting to the PostgreSQL database...
+2023-04-11 13:16:07,736 Step 222 PostgreSQL database version:
+2023-04-11 13:16:07,743 ('PostgreSQL 15.2, compiled by Visual C++ build 1914, 64-bit',)
+2023-04-11 13:16:07,743 table not created error :relation "postgre_pythonss" already exists
+

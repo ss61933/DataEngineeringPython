@@ -1,0 +1,30 @@
+About dataset:
+IT is a google playstore dataset providing details of various category and apps .
+It provides few measures like 
+-App rating
+-Number of downloads
+-Number of reviews
+-Free or priced and its price
+-Genere ,version etc 
+
+
+Task: Practice pandas Data frame functions and help with below analysis :
+
+1. Open file "googleplaystore.csv"
+2. Display the top few records to check data structure , columns sample values 
+3. Find metadata about table like column name , its data type , number of records
+4. Show basic stats for numerical column "rating" Example count , mean, std,min , percentile , max
+5. Perform any column datatype conversion needed for optimization and better analysis? -Focus on column Review 
+6. Find out unique category values and count of unique category 
+7. What is average rating across all apps ?
+8. What is average rating of only those app which comes under Photography category ?
+9. How many are free and how many are paid apps?
+10.Which app has max reviews?
+11.Get App names and review columns where review is greater than 60000000
+12.Select the top 5 app with max reviews 
+13.Select top 5 apps which has maximum installs. Make a note that installs column have error values which needs a correction
+
+
+
+
+Solution : Refer to Google_App_Store_Analysis_using_pandas_dataframe.ipynb

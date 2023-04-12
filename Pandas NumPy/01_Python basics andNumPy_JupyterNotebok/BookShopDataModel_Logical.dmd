@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BookShopDataModel_Logical" id="C1AAF0BB-5D3E-E712-DA86-93EA29C75993" version="3.5">
+<createdBy>swapnil</createdBy>
+<createdTime>2022-04-06 06:54:16 UTC</createdTime>
+<ownerDesignName>BookShopDataModel_Logical</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C1AAF0BB-5D3E-E712-DA86-93EA29C75993</designId>
+</OSDM_Design>

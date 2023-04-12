@@ -1,0 +1,77 @@
+# basic concepts
+print("Hello, World!")  # printing a string
+a = 10  # variable assignment
+b = 20
+c = a + b  # arithmetic operation
+print(c)
+
+# data types
+name = "Alice"  # string
+age = 25  # integer
+height = 1.75  # float
+is_student = True  # boolean
+
+# conditional statements
+if age >= 18:
+    print("You are an adult")
+elif age >= 13:
+    print("You are a teenager")
+else:
+    print("You are a child")
+
+# loops
+for i in range(5):
+    print(i)
+
+while age < 30:
+    age += 1
+    print(age)
+
+# lists
+fruits = ["apple", "banana", "cherry"]
+print(fruits[1])  # indexing
+fruits.append("orange")  # appending
+print(len(fruits))  # length
+
+# dictionaries
+person = {"name": "Bob", "age": 30, "height": 1.8}
+print(person["name"])  # accessing value
+person["weight"] = 75  # adding key-value pair
+print(len(person))  # length
+
+# functions
+def greet(name):
+    print("Hello, " + name + "!")
+
+greet("Alice")  # function call
+
+def square(x):
+    return x**2
+
+print(square(5))
+
+# classes and objects
+class Car:
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+
+    def drive(self):
+        print("The " + self.make + " " + self.model + " is driving.")
+
+my_car = Car("Toyota", "Corolla", 2020)
+my_car.drive()
+
+# modules
+import math
+
+print(math.sqrt(25))
+
+# file handling
+with open("example.txt", "w") as f:
+    f.write("This is an example.")
+
+with open("example.txt", "r") as f:
+    content = f.read()
+    print(content)

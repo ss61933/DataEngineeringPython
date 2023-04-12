@@ -23,7 +23,7 @@ def to_sql(df,df_conn_uri,ds_name):
     df.to_sql(
     ds_name,
     df_conn_uri,
-    if_exists='append',
+    if_exists='replace', # usually we use append
     index=False)
 
 def db_loader(src_base_air, db_conn_uri, ds_name):

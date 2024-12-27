@@ -23,8 +23,9 @@ def to_sql(df,df_conn_uri,ds_name):
     df.to_sql(
     ds_name,
     df_conn_uri,
-    if_exists='replace', # usually we use append
-    index=False)
+    if_exists='append', # usually we use append
+    index=False,
+    chunksize=10000)
 
 def db_loader(src_base_air, db_conn_uri, ds_name):
     schemas = json.load(open(f'{src_base_air}/schemas.json'))
